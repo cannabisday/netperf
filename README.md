@@ -29,7 +29,7 @@ g++ -o cli2 client2.cpp -std=c++11 -lpthrea
 
 <COM1> - server (for checking log)
 
-1. # of msg] rx_time tx_time [throughput kbps] (loss rate/100)
+1. sequence of msg] rx_time tx_time [throughput kbps] (loss rate/100)
    2] 1240 1239 [120.0 kbps] (0/100)
    : second msg, received at 1240 sec, sended at 1239 sec, throuput : 120.0 kbps, loss rate : 0%
    
